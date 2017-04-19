@@ -15,3 +15,8 @@ h1 {
 #header2-left {float: left;}
 #header2-center {overflow: hidden;}
 #header2-right {float: right;}
+
+div.header2 {
+  font-size: 24px;
+  font-family:Arial, Helvetica, sans-serif;
+}
