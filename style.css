@@ -11,3 +11,7 @@ h1 {
   font-size: 48px;
   font-family:Arial, Helvetica, sans-serif;
 }
+
+#header-e1 {float: left;}
+#header-e2 {overflow: hidden;}
+#header-e3 {float: right;}
