@@ -2,30 +2,78 @@ html, body {
 width:80%;
 margin-left:auto;
 margin-right:auto;
-  text-align: center;
-  font-family: sans-serif;
-  margin-top: 25px;
-  margin-bottom: 25px;
- <!-- margin-right: 120px;
-  margin-left: 120x; -->
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 25px;
+margin-bottom: 25px;
+background-image: url("hazy_background_tile.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+<!-- margin-right: 120px;
+margin-left: 120x; -->
 }
-
+li {
+font-size: 15px;
+}
+p {
+margin: 0px;
+padding: 0px;
+font-size: 15px;
+}
+p2 {
+margin: 0px;
+padding: 0px;
+font-size: 17px;
+font-weight: bold;
+}
+p3 {
+margin: 0px;
+padding: 0px;
+font-size: 15px;
+font-weight: bold;
+}
+p4 {
+font-size: 14px;
+}
 h1 {
-  font-size: 32px;
-  font-family:Arial, Helvetica, sans-serif;
+font-size: 30px;
 }
-
 #header2-left {float: left;}
 #header2-center {overflow: hidden;}
 #header2-right {float: right;}
-
-div.header2 {
-  font-size: 20px;
-  font-weight: bold;
-  font-family:Arial, Helvetica, sans-serif;
+.header2 {
+font-size: 18px;
+font-weight: bold;
 }
-div.intro {
-  font-size: 15px;
-  font-style: italic;
-  font-family:Arial, Helvetica, sans-serif;
+#header3-left {float: left;}
+#header3-center {overflow: hidden;}
+#header3-right {float: right;}
+.header3 {
+font-size: 15px;
+font-weight: bold;
+}
+.intro {
+font-size: 15px;
+font-style: italic;
+}
+.skills ul {
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 165px;
+list-style-type: none;
+columns: 2;
+-webkit-columns: 2;
+-moz-columns: 2; 
+}
+.skills li{
+font-size: 16px;
+}
+.skills li:before {
+content: "• ";
+}
+ul {
+list-style-position:inside;
+text-align: left;
 }
